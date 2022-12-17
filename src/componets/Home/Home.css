@@ -1,53 +1,30 @@
 .home{
+    background-color: aquamarine;
     
-    position: relative;
-    padding: 15px 30px;
+    
+    background-image: url(../../imgs/backgroud.jpg);
     overflow-x: hidden;
    
-    background-image: 
-        url(./backgroud.jpg);
-    background-size: "cover";
-    height: 140vh;
     
-    
-    
-    background-repeat:no-repeat; 
-      
 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     
-        
-      
-
-   
-   
-   
-       
 }
-
 .left1{
-    text-align: left;
-    
-    
-    
-    width: 60%;
-   color: aliceblue;
-    
-   font-size: 15px;
-   
+
+    margin: 30px 50px;
+    width: 80vh;
+    color:whitesmoke;
 
 }
-
 .left1 span{
-    color: rgb(6, 7, 9);
-    
-    margin-bottom: 10px;
-    font-size: 23px;
-    font-weight: 400;
-    
-    
+    font-size: 35px;
 }
-.right1{
-    position: relative;
-    top: 150px;
-    left: 540px;
+.left1 p{
+    padding-top: 10px;
+    font-size: 20px;
 }

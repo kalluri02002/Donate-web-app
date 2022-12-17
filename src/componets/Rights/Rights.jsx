@@ -2,7 +2,7 @@ import "./Rights.css"
 import ka from "../Rights/ka.jpg"
 export const Rights=()=>{
     return(
-        <div className="Rights">
+        <div className="Rights" id="rights">
             <div className="king">
 
             <span>Child Rights</span>

@@ -1,23 +1,29 @@
 .footer{
     height: 25vh;
     background-color: rgb(126, 241, 241);
-    padding: 10px 50px;
-    padding-left: 120px;
-    display: flex;
-    justify-content: space-between;
+    
+    
+    
+   
+    
+    
+    
+ 
+   
+    
+  
     
 }
-.first{
-    flex: 1;
+.footer span{
+   
+    font-size: 20px;
+    position: relative;
+    left: 500px;
+    top: 50px;
+   
+    
 }
-.second{
-    flex: 1;
-}
-.third{
-    flex: 1;
-}
-.footer p:hover{
+.footer span:hover{
     color: goldenrod;
-
-    
 }
+

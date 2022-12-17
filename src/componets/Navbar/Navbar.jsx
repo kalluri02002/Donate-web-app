@@ -1,4 +1,6 @@
 import "./Navbar.css"
+import {Link} from "react-scroll"
+
 export const Navbar=()=>{
     return(
         <div className="Navbar">
@@ -8,11 +10,11 @@ export const Navbar=()=>{
             </div>
             <div className="leftNav">
                 <ul>
-                    <li>Home</li>
-                    <li>what we do</li>
+                    <Link spy="true" to="home" smooth={true}><li>Home</li></Link>
+                  <Link spy="true" to="king" smooth={true}><li>what we do</li></Link>  
 
-                    <li>Child Rights</li>
-                    <li>About</li>
+                   <Link spy="true" to="rights" smooth={true}><li>Child Rights</li></Link> 
+                    <Link to="footer" smooth={true}><li>About</li></Link>
                     
                     <a href="https://rzp.io/l/NfidAes">
                         <button>

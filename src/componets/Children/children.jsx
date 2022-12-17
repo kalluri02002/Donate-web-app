@@ -2,7 +2,7 @@ import "./children.css"
  export const Children1=()=>{
     return(
 
-    <div className="children">
+    <div className="children" id="king">
         <span></span>
         <div className="left">
             <span>Child labour and exploitation</span>

@@ -1,26 +1,28 @@
 .Rights{
-    height: 90vh;
+    height: 60vh;
     background-color: rgb(217, 224, 244);
     padding: 30px 50px;
 }
-span{
+.Rights span{
     
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 35px;
+    
     
     
 
 }
-p{
+.Rights p{
     padding-top: 10px;
-    font-size: 14px;
+    font-size: 20px;
 }
 .image{
     float: right;
     position: relative;
-    top: 30px;
+   
+    right: 80px;
     flex: 1;
-    transform: scale(1.2);
+
+    transform: scale(1.8);
 }
 .king{
     float: 2;

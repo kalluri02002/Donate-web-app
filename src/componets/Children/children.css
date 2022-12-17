@@ -1,7 +1,7 @@
 .children{
     opacity: 1;
     padding: 30px 30px;
-    height: 90vh;
+    height: 60vh;
     display: flex;
     background-color: rgb(217, 224, 244);
     gap:20px;
@@ -19,14 +19,14 @@
     color: rgb(15, 14, 14);
     
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 2px;
     font-weight: 400;
 }
-.left>p{
-    padding-top: 10px;
-    font-size: 14px;
+.children span{
+    font-size: 35px;
+    font-weight: 400;
 }
-.right>p{
+.children p{
     padding-top: 10px;
-    font-size: 14px;
+    font-size: 20px;
 }
